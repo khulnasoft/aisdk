@@ -13,7 +13,7 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 Execute `nuxi` to bootstrap the example:
 
 ```bash
-npx nuxi@latest init -t github:vercel/ai/examples/nuxt-langchain nuxt-langchain
+npx nuxi@latest init -t github:khulnasoft/ai/examples/nuxt-langchain nuxt-langchain
 ```
 
 To run the example locally you need to:
