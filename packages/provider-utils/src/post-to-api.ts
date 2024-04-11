@@ -1,4 +1,4 @@
-import { APICallError } from '@ai-sdk/provider';
+import { APICallError } from '@khulnasoft/ai-sdk-provider';
 import { ResponseHandler } from './response-handler';
 
 export const postJsonToApi = async <T>({

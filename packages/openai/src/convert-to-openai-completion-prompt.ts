@@ -2,7 +2,7 @@ import {
   InvalidPromptError,
   LanguageModelV1Prompt,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@khulnasoft/ai-sdk-provider';
 
 export function convertToOpenAICompletionPrompt({
   prompt,

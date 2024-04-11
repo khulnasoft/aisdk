@@ -1,5 +1,5 @@
 import { experimental_streamText } from 'ai';
-import { Mistral } from '@ai-sdk/mistral';
+import { Mistral } from '@khulnasoft/mistral';
 import dotenv from 'dotenv';
 
 dotenv.config();

@@ -4,13 +4,13 @@ import {
   LanguageModelV1FinishReason,
   LanguageModelV1StreamPart,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@khulnasoft/ai-sdk-provider';
 import {
   ParseResult,
   createEventSourceResponseHandler,
   createJsonResponseHandler,
   postJsonToApi,
-} from '@ai-sdk/provider-utils';
+} from '@khulnasoft/ai-sdk-provider-utils';
 import { z } from 'zod';
 import { convertToMistralChatMessages } from './convert-to-mistral-chat-messages';
 import { mapMistralFinishReason } from './map-mistral-finish-reason';

@@ -1,5 +1,5 @@
-import { LanguageModelV1Prompt } from '@ai-sdk/provider';
-import { convertUint8ArrayToBase64 } from '@ai-sdk/provider-utils';
+import { LanguageModelV1Prompt } from '@khulnasoft/ai-sdk-provider';
+import { convertUint8ArrayToBase64 } from '@khulnasoft/ai-sdk-provider-utils';
 import { OpenAIChatPrompt } from './openai-chat-prompt';
 
 export function convertToOpenAIChatMessages(

@@ -27,7 +27,7 @@ export async function Header() {
         <Button variant="outline" asChild>
           <a
             target="_blank"
-            href="https://github.com/vercel/ai/tree/main/examples/next-ai-rsc"
+            href="https://github.com/khulnasoft/ai/tree/main/examples/next-ai-rsc"
             rel="noopener noreferrer"
           >
             <IconGitHub />

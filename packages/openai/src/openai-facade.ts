@@ -1,4 +1,4 @@
-import { loadApiKey } from '@ai-sdk/provider-utils';
+import { loadApiKey } from '@khulnasoft/ai-sdk-provider-utils';
 import { OpenAIChatLanguageModel } from './openai-chat-language-model';
 import { OpenAIChatModelId, OpenAIChatSettings } from './openai-chat-settings';
 import { OpenAICompletionLanguageModel } from './openai-completion-language-model';

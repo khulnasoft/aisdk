@@ -5,16 +5,16 @@ It creates language model objects that can be used with the `generateText`, `str
 
 ## Setup
 
-The Google provider is available in the `@ai-sdk/google` module. You can install it with
+The Google provider is available in the `@khulnasoft/google` module. You can install it with
 
-npm i @ai-sdk/google
+npm i @khulnasoft/google
 
 ## Provider Instance
 
 You can import `Google` from `ai/google` and initialize a provider instance with various settings:
 
 ```ts
-import { Google } from '@ai-sdk/google';
+import { Google } from '@khulnasoft/google';
 
 const google = new Google({
   baseUrl: '', // optional base URL for proxies etc.
@@ -25,7 +25,7 @@ const google = new Google({
 The AI SDK also provides a shorthand `google` import with a Google provider instance that uses defaults:
 
 ```ts
-import { google } from '@ai-sdk/google';
+import { google } from '@khulnasoft/google';
 ```
 
 ## Generative AI Models

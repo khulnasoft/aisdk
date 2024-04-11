@@ -2,7 +2,7 @@ import {
   LanguageModelV1,
   LanguageModelV1CallWarning,
   LanguageModelV1FinishReason,
-} from '@ai-sdk/provider';
+} from '@khulnasoft/ai-sdk-provider';
 import {
   AIStreamCallbacksAndOptions,
   createCallbacksTransformer,

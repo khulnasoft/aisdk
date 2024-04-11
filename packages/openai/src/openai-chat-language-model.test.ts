@@ -1,9 +1,9 @@
-import { LanguageModelV1Prompt } from '@ai-sdk/provider';
+import { LanguageModelV1Prompt } from '@khulnasoft/ai-sdk-provider';
 import {
   JsonTestServer,
   StreamingTestServer,
   convertStreamToArray,
-} from '@ai-sdk/provider-utils/test';
+} from '@khulnasoft/ai-sdk-provider-utils/test';
 import { OpenAI } from './openai-facade';
 
 const TEST_PROMPT: LanguageModelV1Prompt = [

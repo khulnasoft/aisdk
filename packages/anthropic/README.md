@@ -7,10 +7,10 @@ It creates language model objects that can be used with the `generateText` and `
 
 ## Setup
 
-The Anthropic provider is available in the `@ai-sdk/anthropic` module. You can install it with
+The Anthropic provider is available in the `@khulnasoft/anthropic` module. You can install it with
 
 ```
-npm i @ai-sdk/anthropic
+npm i @khulnasoft/anthropic
 ```
 
 ## Provider Instance
@@ -18,7 +18,7 @@ npm i @ai-sdk/anthropic
 You can import `Anthropic` from `ai/anthropic` and initialize a provider instance with various settings:
 
 ```ts
-import { Anthropic } from '@ai-sdk/anthropic';
+import { Anthropic } from '@khulnasoft/anthropic';
 
 const anthropic = new Anthropic({
   baseUrl: '', // optional base URL for proxies etc.
@@ -29,7 +29,7 @@ const anthropic = new Anthropic({
 The AI SDK also provides a shorthand `anthropic` import with a Anthropic provider instance that uses defaults:
 
 ```ts
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@khulnasoft/anthropic';
 ```
 
 ## Messages Models

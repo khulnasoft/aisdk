@@ -3,8 +3,8 @@ import {
   LanguageModelV1CallWarning,
   LanguageModelV1FinishReason,
   NoTextGeneratedError,
-} from '@ai-sdk/provider';
-import { safeParseJSON } from '@ai-sdk/provider-utils';
+} from '@khulnasoft/ai-sdk-provider';
+import { safeParseJSON } from '@khulnasoft/ai-sdk-provider-utils';
 import { z } from 'zod';
 import { TokenUsage, calculateTokenUsage } from '../generate-text/token-usage';
 import { CallSettings } from '../prompt/call-settings';

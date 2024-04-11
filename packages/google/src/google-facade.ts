@@ -1,4 +1,4 @@
-import { generateId, loadApiKey } from '@ai-sdk/provider-utils';
+import { generateId, loadApiKey } from '@khulnasoft/ai-sdk-provider-utils';
 import { GoogleGenerativeAILanguageModel } from './google-generative-ai-language-model';
 import {
   GoogleGenerativeAIModelId,

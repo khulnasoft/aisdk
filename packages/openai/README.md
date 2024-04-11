@@ -5,10 +5,10 @@ It creates language model objects that can be used with the `generateText`, `str
 
 ## Setup
 
-The OpenAI provider is available in the `@ai-sdk/openai` module. You can install it with
+The OpenAI provider is available in the `@khulnasoft/openai` module. You can install it with
 
 ```bash
-npm i @ai-sdk/openai
+npm i @khulnasoft/openai
 ```
 
 ## Provider Instance
@@ -16,7 +16,7 @@ npm i @ai-sdk/openai
 You can import `OpenAI` from `ai/openai` and initialize a provider instance with various settings:
 
 ```ts
-import { OpenAI } from '@ai-sdk/openai'
+import { OpenAI } from '@khulnasoft/openai'
 
 const openai = new OpenAI({
   baseUrl: '', // optional base URL for proxies etc.
@@ -28,7 +28,7 @@ const openai = new OpenAI({
 The AI SDK also provides a shorthand `openai` import with an OpenAI provider instance that uses defaults:
 
 ```ts
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@khulnasoft/openai';
 ```
 
 ## Chat Models

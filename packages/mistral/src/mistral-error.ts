@@ -1,4 +1,4 @@
-import { createJsonErrorResponseHandler } from '@ai-sdk/provider-utils';
+import { createJsonErrorResponseHandler } from '@khulnasoft/ai-sdk-provider-utils';
 import { z } from 'zod';
 
 const mistralErrorDataSchema = z.object({

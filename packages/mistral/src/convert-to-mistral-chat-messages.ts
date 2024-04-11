@@ -1,7 +1,7 @@
 import {
   LanguageModelV1Prompt,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@khulnasoft/ai-sdk-provider';
 import { MistralChatPrompt } from './mistral-chat-prompt';
 
 export function convertToMistralChatMessages(

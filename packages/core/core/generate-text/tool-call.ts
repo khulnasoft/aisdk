@@ -2,8 +2,8 @@ import {
   InvalidToolArgumentsError,
   LanguageModelV1FunctionToolCall,
   NoSuchToolError,
-} from '@ai-sdk/provider';
-import { safeParseJSON } from '@ai-sdk/provider-utils';
+} from '@khulnasoft/ai-sdk-provider';
+import { safeParseJSON } from '@khulnasoft/ai-sdk-provider-utils';
 import { z } from 'zod';
 import { ExperimentalTool } from '../tool';
 import { ValueOf } from '../util/value-of';

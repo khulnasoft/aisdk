@@ -3,14 +3,14 @@ import {
   LanguageModelV1FinishReason,
   LanguageModelV1StreamPart,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@khulnasoft/ai-sdk-provider';
 import {
   ParseResult,
   createEventSourceResponseHandler,
   createJsonResponseHandler,
   postJsonToApi,
   scale,
-} from '@ai-sdk/provider-utils';
+} from '@khulnasoft/ai-sdk-provider-utils';
 import { z } from 'zod';
 import { convertToOpenAICompletionPrompt } from './convert-to-openai-completion-prompt';
 import { mapOpenAIFinishReason } from './map-openai-finish-reason';

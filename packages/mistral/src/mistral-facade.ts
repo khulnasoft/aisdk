@@ -1,4 +1,4 @@
-import { generateId, loadApiKey } from '@ai-sdk/provider-utils';
+import { generateId, loadApiKey } from '@khulnasoft/ai-sdk-provider-utils';
 import { MistralChatLanguageModel } from './mistral-chat-language-model';
 import {
   MistralChatModelId,

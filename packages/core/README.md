@@ -28,7 +28,7 @@ This library is created by [Vercel](https://vercel.com) and [Next.js](https://ne
 - Malte Ubl ([@cramforce](https://twitter.com/cramforce)) - [Vercel](https://vercel.com)
 - Justin Ridgewell ([@jridgewell](https://github.com/jridgewell))
 
-[Contributors](https://github.com/vercel/ai/graphs/contributors)
+[Contributors](https://github.com/khulnasoft/ai/graphs/contributors)
 
 ## Related: Deploy your own Next.js AI Chatbot
 

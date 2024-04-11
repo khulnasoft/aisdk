@@ -29,7 +29,7 @@ Here is a simple example for `generateText`:
 
 ```ts
 import { experimental_generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@khulnasoft/openai';
 
 const { text } = await experimental_generateText({
   model: openai.chat('gpt-3.5-turbo'),
@@ -77,6 +77,6 @@ The AI SDK contains the following providers:
 - [Google Provider](/docs/ai-core/google) (`ai/google`)
 - [Anthropic Provider](/docs/ai-core/anthropic) (`ai/anthropic`)
 
-The AI SDK also provides a [language model specification](https://github.com/vercel/ai/tree/main/packages/core/spec/language-model/v1) that you can use to implement [custom providers](/docs/ai-core/custom-provider).
+The AI SDK also provides a [language model specification](https://github.com/khulnasoft/ai/tree/main/packages/core/spec/language-model/v1) that you can use to implement [custom providers](/docs/ai-core/custom-provider).
 
 ![AI SDK Diagram](/images/ai-sdk-diagram.png)

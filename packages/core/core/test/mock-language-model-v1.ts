@@ -1,4 +1,4 @@
-import { LanguageModelV1 } from '@ai-sdk/provider';
+import { LanguageModelV1 } from '@khulnasoft/ai-sdk-provider';
 
 export class MockLanguageModelV1 implements LanguageModelV1 {
   readonly specificationVersion = 'v1';

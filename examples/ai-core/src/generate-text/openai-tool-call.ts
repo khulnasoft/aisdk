@@ -1,5 +1,5 @@
 import { experimental_generateText, tool } from 'ai';
-import { OpenAI } from '@ai-sdk/openai';
+import { OpenAI } from '@khulnasoft/openai';
 import dotenv from 'dotenv';
 import { z } from 'zod';
 import { weatherTool } from '../tools/weather-tool';

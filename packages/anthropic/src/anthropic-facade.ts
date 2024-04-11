@@ -1,4 +1,4 @@
-import { loadApiKey } from '@ai-sdk/provider-utils';
+import { loadApiKey } from '@khulnasoft/ai-sdk-provider-utils';
 import { AnthropicMessagesLanguageModel } from './anthropic-messages-language-model';
 import {
   AnthropicMessagesModelId,

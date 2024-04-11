@@ -1,5 +1,5 @@
 import { experimental_generateText } from 'ai';
-import { OpenAI } from '@ai-sdk/openai';
+import { OpenAI } from '@khulnasoft/openai';
 import dotenv from 'dotenv';
 
 dotenv.config();
@@ -18,7 +18,7 @@ async function main() {
           {
             type: 'image',
             image: new URL(
-              'https://github.com/vercel/ai/blob/main/examples/ai-core/data/comic-cat.png?raw=true',
+              'https://github.com/khulnasoft/ai/blob/main/examples/ai-core/data/comic-cat.png?raw=true',
             ),
           },
         ],

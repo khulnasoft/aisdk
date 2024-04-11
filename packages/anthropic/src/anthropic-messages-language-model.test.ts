@@ -1,9 +1,9 @@
-import { LanguageModelV1Prompt } from '@ai-sdk/provider';
+import { LanguageModelV1Prompt } from '@khulnasoft/ai-sdk-provider';
 import {
   JsonTestServer,
   StreamingTestServer,
   convertStreamToArray,
-} from '@ai-sdk/provider-utils/test';
+} from '@khulnasoft/ai-sdk-provider-utils/test';
 import { Anthropic } from './anthropic-facade';
 import { AnthropicAssistantMessage } from './anthropic-messages-prompt';
 

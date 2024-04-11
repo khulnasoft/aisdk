@@ -1,4 +1,4 @@
-import { TypeValidationError } from '@ai-sdk/provider';
+import { TypeValidationError } from '@khulnasoft/ai-sdk-provider';
 import { ZodSchema } from 'zod';
 
 /**

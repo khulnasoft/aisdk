@@ -1,5 +1,5 @@
-import { APICallError, RetryError } from '@ai-sdk/provider';
-import { getErrorMessage } from '@ai-sdk/provider-utils';
+import { APICallError, RetryError } from '@khulnasoft/ai-sdk-provider';
+import { getErrorMessage } from '@khulnasoft/ai-sdk-provider-utils';
 import { delay } from './delay';
 
 export type RetryFunction = <OUTPUT>(

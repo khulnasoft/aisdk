@@ -1,6 +1,6 @@
 'use server';
 
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@khulnasoft/openai';
 import { experimental_streamObject } from 'ai';
 import {
   StreamableValue,

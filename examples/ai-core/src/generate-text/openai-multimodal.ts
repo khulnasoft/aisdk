@@ -1,5 +1,5 @@
 import { experimental_generateText } from 'ai';
-import { OpenAI } from '@ai-sdk/openai';
+import { OpenAI } from '@khulnasoft/openai';
 import dotenv from 'dotenv';
 import fs from 'node:fs';
 

@@ -4,7 +4,7 @@
 
 ### Patch Changes
 
-- 87d3db5: Extracted @ai-sdk/provider package
+- 87d3db5: Extracted @khulnasoft/ai-sdk-provide package
 - 8c40f8c: ai/core: Fix openai provider streamObject for gpt-4-turbo
 - 5cd29bd: ai/core: add toTextStreamResponse() method to streamText result
 
@@ -399,7 +399,7 @@
 
 ### Patch Changes
 
-- 84e0cc8: Add experimental_StreamData and new opt-in wire protocol to enable streaming additional data. See https://github.com/vercel/ai/pull/425.
+- 84e0cc8: Add experimental_StreamData and new opt-in wire protocol to enable streaming additional data. See https://github.com/khulnasoft/ai/pull/425.
 
   Changes `onCompletion` back to run every completion, including recursive function calls. Adds an `onFinish` callback that runs once everything has streamed.
 

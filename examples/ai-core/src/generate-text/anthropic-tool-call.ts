@@ -1,5 +1,5 @@
 import { experimental_generateText, tool } from 'ai';
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@khulnasoft/anthropic';
 import dotenv from 'dotenv';
 import { z } from 'zod';
 import { weatherTool } from '../tools/weather-tool';

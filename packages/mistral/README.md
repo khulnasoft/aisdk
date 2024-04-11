@@ -5,10 +5,10 @@ It creates language model objects that can be used with the `generateText`, `str
 
 ## Setup
 
-The Mistral provider is available in the `@ai-sdk/mistral` module. You can install it with
+The Mistral provider is available in the `@khulnasoft/mistral` module. You can install it with
 
 ```bash
-npm i @ai-sdk/mistral
+npm i @khulnasoft/mistral
 ```
 
 ## Provider Instance
@@ -16,7 +16,7 @@ npm i @ai-sdk/mistral
 You can import `Mistral` from `ai/mistral` and initialize a provider instance with various settings:
 
 ```ts
-import { Mistral } from '@ai-sdk/mistral';
+import { Mistral } from '@khulnasoft/mistral';
 
 const mistral = new Mistral({
   baseUrl: '', // optional base URL for proxies etc.
@@ -27,7 +27,7 @@ const mistral = new Mistral({
 The AI SDK also provides a shorthand `mistral` import with a Mistral provider instance that uses defaults:
 
 ```ts
-import { mistral } from '@ai-sdk/mistral';
+import { mistral } from '@khulnasoft/mistral';
 ```
 
 ## Chat Models

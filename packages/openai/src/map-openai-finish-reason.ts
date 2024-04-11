@@ -1,4 +1,4 @@
-import { LanguageModelV1FinishReason } from '@ai-sdk/provider';
+import { LanguageModelV1FinishReason } from '@khulnasoft/ai-sdk-provider';
 
 export function mapOpenAIFinishReason(
   finishReason: string | null | undefined,

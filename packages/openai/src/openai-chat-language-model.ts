@@ -4,7 +4,7 @@ import {
   LanguageModelV1FinishReason,
   LanguageModelV1StreamPart,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@khulnasoft/ai-sdk-provider';
 import {
   ParseResult,
   createEventSourceResponseHandler,
@@ -13,7 +13,7 @@ import {
   isParseableJson,
   postJsonToApi,
   scale,
-} from '@ai-sdk/provider-utils';
+} from '@khulnasoft/ai-sdk-provider-utils';
 import { z } from 'zod';
 import { convertToOpenAIChatMessages } from './convert-to-openai-chat-messages';
 import { mapOpenAIFinishReason } from './map-openai-finish-reason';

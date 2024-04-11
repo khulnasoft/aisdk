@@ -1,8 +1,8 @@
 import {
   LanguageModelV1Prompt,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
-import { convertUint8ArrayToBase64 } from '@ai-sdk/provider-utils';
+} from '@khulnasoft/ai-sdk-provider';
+import { convertUint8ArrayToBase64 } from '@khulnasoft/ai-sdk-provider-utils';
 import {
   AnthropicMessage,
   AnthropicMessagesPrompt,

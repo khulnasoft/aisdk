@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { createJsonErrorResponseHandler } from '@ai-sdk/provider-utils';
+import { createJsonErrorResponseHandler } from '@khulnasoft/ai-sdk-provider-utils';
 
 const openAIErrorDataSchema = z.object({
   error: z.object({

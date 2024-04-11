@@ -1,4 +1,4 @@
-import { InvalidArgumentError } from '@ai-sdk/provider';
+import { InvalidArgumentError } from '@khulnasoft/ai-sdk-provider';
 import { CallSettings } from './call-settings';
 
 /**
